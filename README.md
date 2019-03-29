@@ -11,6 +11,8 @@ Before :
 ```
 
 After :
-```sql 
+```sql
 SELECT TEST1, TEST2 FROM DUAL WHERE COL1 = 'CW' AND COL2 = '9999'
 ````
+
+세중형형은 떠났어! 이제 더는 없어!! 하지만! 내 등에, 이 가슴에, 하나가 되어 계속 살아가!!!  
