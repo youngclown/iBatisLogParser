@@ -54,7 +54,8 @@ tipJS.controller({
 			//lastIdx = tempParams.lastIndexOf("(");
 
 			//param.val = $.trim ( tempParams.substring(0, lastIdx ) );
-
+			tempParams = tempParams.replace("(String)","")
+			tempParams = tempParams.replace("(Integer)","")
 			param.val = $.trim ( tempParams );
 			
 			if (lastIdx < 0) {
